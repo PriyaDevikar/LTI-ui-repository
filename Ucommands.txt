@@ -1,0 +1,127 @@
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT
+$ pwd
+/c/GIT_PROJECT
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT
+$ git init UIproject
+Initialized empty Git repository in C:/GIT_PROJECT/UIproject/.git/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT
+$ cd UIproject
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ cd CSS
+bash: cd: CSS: No such file or directory
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ touch UIdemo.java
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ git init CSS
+Initialized empty Git repository in C:/GIT_PROJECT/UIproject/CSS/.git/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ cd CSS
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/CSS (master)
+$ touch UIdemo.css
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/CSS (master)
+$ cd ..
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ mkdir JS/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ cd JS/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/JS (master)
+$ touch UIdemo.js
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/JS (master)
+$ cd ..
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ mkdir Resource/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ cd Resource/
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/Resource (master)
+$ touch UIdemo.Resource
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/Resource (master)
+$ cd ..
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ touch UIdemo.index.html
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ rm UIdemo.index.html
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ touch index.html
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject (master)
+$ cd css
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ touch UIdemo.css
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        UIdemo.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git add .
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   UIdemo.css
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git commit -m "first commit ui project"
+[master (root-commit) 510cf11] first commit ui project
+ Committer: unknown <user214@ALCHEMYCLOUD.CO.IN>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 UIdemo.css
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git remote add origin https://github.com/PriyaDevikar/LTI-ui-repository.git
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$ git push -u origin master
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/PriyaDevikar/LTI-ui-repository.git/'
+
+user214@javafullstack30 MINGW64 /c/GIT_PROJECT/UIproject/css (master)
+$
